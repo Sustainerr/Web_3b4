@@ -1,45 +1,126 @@
 <!DOCTYPE html>
-	<head>
-		<title>Acceuil CV</title>
-	</head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f1f1f1;
+        }
+#titre{
+color : white;}
 
-	<body background="back.png">
-		<header>
-			<h1>Site representatif de mon CV</h1>
-		</header>
-		
-		<nav>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/index.html">Acceuil</a>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/competence.html">Mes compétences</a>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/projet.html">Mes projets</a>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/contact.html">Contact</a>
-		</nav>
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
 
-		<section>
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
 
-			<article>
-				<p><h1>Bonjour/Bonsoir à vous ! je suis ilyes bouriga professionel et passioné par le domaine de l'informatique , plus précisément le domaine de l'embarqué.</p></h1>
-			</article>
-		
-    				<table>
-       					<tr>
-            					<td>
-                					<img src="im1.jpg"  width="200" height="200">
-            					</td>
-            					<td>
-							<p>Fort d'une expérience solide dans le développement de logiciels, je me distingue par une expertise approfondie dans les langages tels que Java, Python 							et C, avec une focalisation particulière sur le domaine de l'informatique embarquée. Mon objectif premier consiste à concevoir des solutions innovantes 							destinées à résoudre des problématiques complexes et à améliorer l'expérience utilisateur, en mettant en avant les applications intégrées.</p>
-							<p>Explorez mon portfolio pour découvrir mes projets, compétences et réalisations spécifiquement liés à l'informatique embarquée. N'hésitez pas à me 								contacter afin d'échanger sur des collaborations professionnelles, des projets stimulants dans le domaine de l'embarqué, ou simplement pour partager des 							idées.</p>
-            					</td>
-        				</tr>
-   			 	</table>
-			<article>
-				<p><h1>Contact :</p></h1>			
-        			<p>Email : ilyes.bouriga@esprit.tn</p>
-        			<p>Téléphone : (216) xx xxx xxx</p>
-				<nav>
-					<p><h1>GitHub : </p></h1><a href="https://github.com/Sustainerr">github.com/Sustainerr</a>
-        			</nav>
-			</article>
-		</section>
-	</body>
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table img {
+            border-radius: 50%;
+        }
+
+        table td {
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body background="back.png">
+    <header>
+        <h1 id="titre">Site représentatif de mon CV</h1>
+    </header>
+    
+    <nav>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/index.html">Accueil</a>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/competence.html">Mes compétences</a>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/projet.html">Mes projets</a>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <article>
+            <p><h1>Bonjour/Bonsoir à vous ! Je suis Ilyes Bouriga, professionnel et passionné par le domaine de l'informatique, plus précisément le domaine de l'embarqué.</p></h1>
+        </article>
+    
+        <table>
+            <tr>
+                <td>
+                    <img src="im1.jpg"  width="200" height="200">
+                </td>
+                <td>
+                    <p>Fort d'une expérience solide dans le développement de logiciels, je me distingue par une expertise approfondie dans les langages tels que Java, Python et C, avec une focalisation particulière sur le domaine de l'informatique embarquée. Mon objectif premier consiste à concevoir des solutions innovantes destinées à résoudre des problématiques complexes et à améliorer l'expérience utilisateur, en mettant en avant les applications intégrées.</p>
+                    <p>Explorez mon portfolio pour découvrir mes projets, compétences et réalisations spécifiquement liés à l'informatique embarquée. N'hésitez pas à me contacter afin d'échanger sur des collaborations professionnelles, des projets stimulants dans le domaine de l'embarqué, ou simplement pour partager des idées.</p>
+                </td>
+            </tr>
+        </table>
+
+        <article>
+            <p><h1>Contact :</p></h1>            
+            <p>Email: ilyes.bouriga@esprit.tn</p>
+            <p>Téléphone: (216) xx xxx xxx</p>
+            <nav>
+                <p><h1>GitHub : </p></h1><a href="https://github.com/Sustainerr">github.com/Sustainerr</a>
+            </nav>
+        </article>
+    </section>
+    
+    <!-- You can add a footer if needed -->
+    <!-- <footer>
+        © 2023 Your Name
+    </footer> -->
+</body>
 </html>

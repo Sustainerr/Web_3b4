@@ -1,59 +1,126 @@
- <html>
-	<head>
-		<title>Projets</title>
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f1f1f1;
+        }
 
-	<body background="back.png">
-		<header>
-			<h1>Mes Projets</h1>
-		</header>
-		<nav>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/index.html">Acceuil</a>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/competence.html">Mes compétences</a>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/projet.html">Mes projets</a>
-			<a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/contact.html">Contact</a>
-		</nav>
-		<section>
-        		<article>
-				<table>
-				<tr>
-				<td>
-           			 <h2>Projet Embarqué de Contrôle Industriel</h2>
-            			<p>Projet visant à développer un système de contrôle industriel embarqué pour optimiser les processus de fabrication.</p>
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
 
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
 
-                		<li>Langages : C, C++</li>
-                		<li>Système d'exploitation : FreeRTOS</li>
-                		<li>Microcontrôleur : ARM Cortex-M</li>
-                		<li>Protocoles : Modbus, CAN</li>
-				</td>
-				<td>
-				<img src="emb.png"  width="250" height="250">
-				</td>
-				</tr>
-				</table>
-				
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
 
-        		</article>
+        section {
+            padding: 20px;
+        }
 
-        		<article>
-				<table>
-				<tr>
-				<td>
-            			<h2>Système Embarqué de Surveillance Médicale</h2>
-            			<p>Développement d'un système embarqué pour la surveillance en temps réel des signes vitaux dans les environnements médicaux.</p>
+        article {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+        }
 
-               			<li>Langages : C, Python</li>
-                		<li>Système d'exploitation : Embedded Linux</li>
-                		<li>Microprocesseur : Intel Atom</li>
-                		<li>Protocoles : Bluetooth, Wi-Fi</li>
-				</td>
-				<td>
-				<img src="med.jpg"  width="250" height="250">
-				</td>
-				</tr>
-				</table>
-        		</article>
-    		</section>
-	</body>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        table td {
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body background="back.png">
+    <header>
+        <h1>Mes Projets</h1>
+    </header>
+    <nav>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/index.html">Acceuil</a>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/competence.html">Mes compétences</a>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/projet.html">Mes projets</a>
+        <a href="https://sustainerr.github.io/Web_3b4/miniprojet_html/contact.html">Contact</a>
+    </nav>
+    <section>
+        <article>
+            <table>
+                <tr>
+                    <td>
+                        <h2>Projet Embarqué de Contrôle Industriel</h2>
+                        <p>Projet visant à développer un système de contrôle industriel embarqué pour optimiser les processus de fabrication.</p>
+
+                        <ul>
+                            <li>Langages : C, C++</li>
+                            <li>Système d'exploitation : FreeRTOS</li>
+                            <li>Microcontrôleur : ARM Cortex-M</li>
+                            <li>Protocoles : Modbus, CAN</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="emb.png"  width="250" height="250" alt="Projet Embarqué de Contrôle Industriel">
+                    </td>
+                </tr>
+            </table>
+        </article>
+
+        <article>
+            <table>
+                <tr>
+                    <td>
+                        <h2>Système Embarqué de Surveillance Médicale</h2>
+                        <p>Développement d'un système embarqué pour la surveillance en temps réel des signes vitaux dans les environnements médicaux.</p>
+
+                        <ul>
+                            <li>Langages : C, Python</li>
+                            <li>Système d'exploitation : Embedded Linux</li>
+                            <li>Microprocesseur : Intel Atom</li>
+                            <li>Protocoles : Bluetooth, Wi-Fi</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="med.jpg"  width="250" height="250" alt="Système Embarqué de Surveillance Médicale">
+                    </td>
+                </tr>
+            </table>
+        </article>
+    </section>
+</body>
 </html>
